@@ -1,0 +1,16 @@
+.wrapper {
+   max-width: 70rem;
+   margin: 2rem auto;
+   padding: 0 1rem;
+
+   display: grid;
+   gap: 2rem;
+   grid-template-columns: 256px 1fr;
+   align-items: start;
+}
+
+@media (max-width: 768px) {
+   .wrapper {
+      grid-template-columns: 1fr;
+   }
+}
